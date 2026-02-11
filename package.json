@@ -1,0 +1,15 @@
+{
+  "name": "adhd",
+  "version": "0.1.0",
+  "description": "Agent Driven Hyper-Development — documentation and scripts",
+  "private": true,
+  "scripts": {
+    "generate-feature-id": "tsx scripts/generate-feature-id.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0"
+  }
+}
